@@ -1,0 +1,27 @@
+{
+  "name": "bookshelf-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adivii/bookshelf-express.git"
+  },
+  "author": "adivii",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adivii/bookshelf-express/issues"
+  },
+  "homepage": "https://github.com/adivii/bookshelf-express#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0",
+    "pg": "^8.11.5",
+    "uuid": "^9.0.1"
+  }
+}
